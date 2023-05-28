@@ -28,6 +28,11 @@ module.exports = {
         person3: "url('./assets/person-3.png')",
       }
     },
+    screens: {
+      xs: "480px",
+      sm: "768px",
+      md: "1060px"
+    }
   },
   plugins: [],
 }
