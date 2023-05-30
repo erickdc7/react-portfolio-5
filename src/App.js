@@ -4,11 +4,15 @@ import Navbar from "./scenes/Navbar";
 
 function App() {
 	const [selectedPage, setSelectedPage] = useState('home');
+	const [isTopOfPage, setIsTopOfPage] = useState(true);
 	const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+
+
 
 	return (
 		<div className="app bg-deep-blue">
 			<Navbar
+				isTopOfPage={isTopOfPage}
 				selectedPage={selectedPage}
 				setSelectedPage={setSelectedPage}
 			/>
