@@ -70,6 +70,15 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                             </button>
                         )
                 }
+
+                {/* MOBILE MENU POPUP */}
+                {
+                    !isAboveSmallScreens && isMenuToggled && (
+                        <div className='fixed right-0 bottom-0 h-full bg-blue w-[300px]'>
+                            
+                        </div>
+                    )
+                }
             </div>
         </nav>
     )
