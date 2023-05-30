@@ -630,6 +630,10 @@ video {
   align-items: center;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -659,6 +663,10 @@ video {
 
 .p-2{
   padding: 0.5rem;
+}
+
+.p-12{
+  padding: 3rem;
 }
 
 .py-6{
