@@ -48,6 +48,10 @@ const Landing = ({ setSelectedPage }) => {
                                 Esper
                             </span>
                         </p>
+
+                        <p className="mt-10 mb-7 text-sm text-center md:text-start">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sapiente voluptatibus nemo natus odio repellat molestias repellendus commodi esse at?
+                        </p>
                     </motion.div>
                 </div>
             </div>
