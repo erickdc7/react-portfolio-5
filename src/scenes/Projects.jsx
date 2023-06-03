@@ -1,6 +1,13 @@
 import LineGradient from "../components/LineGradient"
 import { motion } from "framer-motion"
 
+const container = {
+    hidden: {},
+    visible: {
+        transition: { staggerChldren: 0.2 }
+    }
+}
+
 const Projects = () => {
     return (
         <section id="projects" className="pt-48 pb-48">
@@ -30,6 +37,19 @@ const Projects = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab praesentium rem optio nobis commodi sunt est quaerat, laboriosam consequatur libero, qui hic! Eligendi, voluptatem.
                 </p>
             </motion.div>
+
+            {/* PROJECTS */}
+            <div className="flex justify-center">
+                <motion.div
+                    className="sm:grid sm:grid-cols-3"
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    variants={container}
+                >
+
+                </motion.div>
+            </div>
         </section>
     )
 }
