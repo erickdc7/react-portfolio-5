@@ -3,8 +3,7 @@ import { motion } from "framer-motion"
 
 const Projects = () => {
     return (
-        <section id="projects">
-
+        <section id="projects" className="pt-48 pb-48">
         </section>
     )
 }
