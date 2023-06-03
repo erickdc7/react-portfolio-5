@@ -48,6 +48,8 @@ function App() {
 			<div className="w-5/6 mx-auto md:h-full">
 				<MySkills />
 			</div>
+
+			<LineGradient />
 		</div>
 	);
 }
