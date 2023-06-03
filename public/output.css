@@ -683,6 +683,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -1176,6 +1180,18 @@ body,
 
   .md\:w-3\/4{
     width: 75%;
+  }
+
+  .md\:w-2{
+    width: 0.5rem;
+  }
+
+  .md\:w-24{
+    width: 6rem;
+  }
+
+  .md\:w-2\/4{
+    width: 50%;
   }
 
   .md\:max-w-\[600px\]{
