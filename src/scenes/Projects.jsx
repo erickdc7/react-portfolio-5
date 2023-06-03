@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 const container = {
     hidden: {},
     visible: {
-        transition: { staggerChldren: 0.2 }
+        transition: { staggerChildren: 0.2 }
     }
 }
 
