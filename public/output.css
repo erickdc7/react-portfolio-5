@@ -709,6 +709,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mt-7{
+  margin-top: 1.75rem;
+}
+
 .flex{
   display: flex;
 }
@@ -737,6 +741,18 @@ video {
   height: 100%;
 }
 
+.h-4{
+  height: 1rem;
+}
+
+.max-h-\[\]{
+  max-height: ;
+}
+
+.max-h-\[400px\]{
+  max-height: 400px;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -763,6 +779,10 @@ video {
 
 .max-w-\[400px\]{
   max-width: 400px;
+}
+
+.max-w-\[\]{
+  max-width: ;
 }
 
 .basis-2\/5{
@@ -855,6 +875,11 @@ video {
   background-color: rgb(253 204 73 / var(--tw-bg-opacity));
 }
 
+.bg-grey{
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 237 237 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-rainblue{
   background-image: linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%);
 }
@@ -865,6 +890,14 @@ video {
 
 .p-2{
   padding: 0.5rem;
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+.p-16{
+  padding: 4rem;
 }
 
 .px-10{
@@ -993,6 +1026,10 @@ video {
 .text-yellow{
   --tw-text-opacity: 1;
   color: rgb(253 204 73 / var(--tw-text-opacity));
+}
+
+.opacity-0{
+  opacity: 0;
 }
 
 .transition{
@@ -1142,6 +1179,10 @@ body,
 
 .hover\:opacity-50:hover{
   opacity: 0.5;
+}
+
+.hover\:opacity-90:hover{
+  opacity: 0.9;
 }
 
 .hover\:saturate-200:hover{
