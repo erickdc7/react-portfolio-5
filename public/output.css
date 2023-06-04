@@ -837,6 +837,10 @@ video {
   gap: 1.75rem;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -1011,6 +1015,11 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -1188,6 +1197,21 @@ body,
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(253 204 73 / var(--tw-border-opacity));
+}
+
+.before\:content-person1::before{
+  --tw-content: url('./assets/person-1.png');
+  content: var(--tw-content);
+}
+
+.before\:content-person2::before{
+  --tw-content: url('./assets/person-2.png');
+  content: var(--tw-content);
+}
+
+.before\:content-person3::before{
+  --tw-content: url('./assets/person-3.png');
+  content: var(--tw-content);
 }
 
 .hover\:bg-blue:hover{
