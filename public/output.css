@@ -913,6 +913,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1053,6 +1057,14 @@ video {
 .text-yellow{
   --tw-text-opacity: 1;
   color: rgb(253 204 73 / var(--tw-text-opacity));
+}
+
+.placeholder-opaque-black::-webkit-input-placeholder{
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.placeholder-opaque-black::placeholder{
+  color: rgba(0, 0, 0, 0.35);
 }
 
 .opacity-0{

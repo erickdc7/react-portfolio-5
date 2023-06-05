@@ -68,8 +68,23 @@ const Contact = () => {
                         visible: { opacity: 1, y: 0 }
                     }}
                 >
-                    <form>
+                    <form
+                        target="_blank"
+                        onSubmit={onSubmit}
+                        action=""
+                        method="POST"
+                    >
+                        <input
+                            type="text"
+                            className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+                            placeholder="NAME"
+                            {...register("name", {
+                                required: true,
+                                maxLength: 100,
+                            }
 
+                            )}
+                        />
                     </form>
                 </motion.div>
             </div>
