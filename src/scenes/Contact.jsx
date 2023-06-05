@@ -1,4 +1,5 @@
-import React from 'react'
+import LineGradient from "../components/LineGradient"
+
 
 const Contact = () => {
     return (
