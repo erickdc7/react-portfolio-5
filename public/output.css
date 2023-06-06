@@ -722,6 +722,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .flex{
   display: flex;
 }
@@ -790,16 +794,16 @@ video {
   max-width: 400px;
 }
 
+.basis-1\/2{
+  flex-basis: 50%;
+}
+
 .basis-2\/5{
   flex-basis: 40%;
 }
 
 .basis-3\/5{
   flex-basis: 60%;
-}
-
-.basis-1\/2{
-  flex-basis: 50%;
 }
 
 .resize{
@@ -947,14 +951,14 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-48{
   padding-top: 12rem;
   padding-bottom: 12rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-16{
