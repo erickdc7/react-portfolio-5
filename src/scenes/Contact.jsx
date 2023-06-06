@@ -21,6 +21,7 @@ const Contact = () => {
         <section id="contact" className="py-48">
             {/* HEADINGS */}
             <motion.div
+                className="flex justify-end w-full"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
