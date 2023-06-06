@@ -71,7 +71,7 @@ const Contact = () => {
                     <form
                         target="_blank"
                         onSubmit={onSubmit}
-                        action=""
+                        action="https:/formsubmit.co/nagato83a@gmail.com"
                         method="POST"
                     >
                         <input
@@ -131,6 +131,13 @@ const Contact = () => {
                                 </p>
                             )
                         }
+
+                        <button
+                            type="submit"
+                            className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+                        >
+                            SEND ME A MESSAGE
+                        </button>
                     </form>
                 </motion.div>
             </div>
