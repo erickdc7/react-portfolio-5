@@ -124,10 +124,10 @@ const Contact = () => {
                         />
 
                         {
-                            errors.email && (
+                            errors.message && (
                                 <p className="text-red mt-1">
-                                    {errors.email.type === 'required' && "This field is required."}
-                                    {errors.email.type === 'pattern' && "Invalid email address."}
+                                    {errors.message.type === 'required' && "This field is required."}
+                                    {errors.message.type === 'maxLength' && "Max length is 2000 char."}
                                 </p>
                             )
                         }
