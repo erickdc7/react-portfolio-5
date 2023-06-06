@@ -111,13 +111,15 @@ const Contact = () => {
                             )
                         }
 
-                        <input
+                        <textarea
                             type="text"
                             className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
-                            placeholder="EMAIL"
-                            {...register("email", {
+                            placeholder="MESSAGE"
+                            rows="4"
+                            cols="50"
+                            {...register("message", {
                                 required: true,
-                                pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                                maxLength: 2000
                             })}
                         />
 
