@@ -37,7 +37,7 @@ const Contact = () => {
                     </p>
 
                     <div className="flex md:justify-end my-5">
-                        <LineGradient width="mx-auto w-2/4" />
+                        <LineGradient width="w-1/2" />
                     </div>
                 </div>
             </motion.div>
