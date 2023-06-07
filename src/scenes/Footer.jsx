@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="w-5/6 mx-auto">
                 <SocialMediaIcons />
 
-                <div>
+                <div className="md:flex justify-center md:justify-between text-center">
                     <p>JANE ESPER</p>
                     <p>©2023 ESPER. All Rigths Reserved.</p>
                 </div>
