@@ -750,16 +750,16 @@ video {
   height: 8rem;
 }
 
+.h-64{
+  height: 16rem;
+}
+
 .h-\[350px\]{
   height: 350px;
 }
 
 .h-full{
   height: 100%;
-}
-
-.h-64{
-  height: 16rem;
 }
 
 .max-h-\[400px\]{
