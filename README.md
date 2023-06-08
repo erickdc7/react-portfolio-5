@@ -1,4 +1,4 @@
-# Responsive React Portfolio Website
+# React Portfolio 05
 This design is inspired by this [video](https://youtu.be/JSJ8ftr92Vw), which belongs to [EdRoh](https://www.youtube.com/@EdRohDev).
 
 ## Technologies
