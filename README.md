@@ -1,5 +1,5 @@
 # React Portfolio 05
-This design is inspired by this [video](https://youtu.be/JSJ8ftr92Vw), which belongs to [EdRoh](https://www.youtube.com/@EdRohDev).
+This design is inspired by the work of [EdRoh](https://www.youtube.com/@EdRohDev). Click [here](https://youtu.be/JSJ8ftr92Vw) to watch the video.
 
 ## Technologies
 This web page was made with the following technologies:
